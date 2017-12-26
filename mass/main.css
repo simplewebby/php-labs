@@ -1,0 +1,62 @@
+body {
+    background: coral;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #34373d;
+}
+main {
+    align-content: center;
+    width:70%;
+    margin: 0 auto;
+    padding: 1em;
+    background: #ccc;;
+    border: 2px solid#88888c;
+
+}
+h2, h3{
+
+  padding:  10px;
+  text-align: center;
+
+}
+label {
+    width: 13em;
+    float: left;
+    padding-right: 3em;
+    padding-bottom: .8em;
+
+}
+#data input:focus{
+  background: white;
+  border: 3px;
+  cursor: text;
+}
+#data input {
+    float: left;
+    width: 15em;
+    margin-bottom: .5em;
+}
+#data span {
+    padding-left: .25em;
+}
+#buttons input {
+    background: coral;
+    color: #424244;
+    margin-bottom: .5em .5em;
+    padding: 5px;
+
+}
+#buttons input:hover {
+  background: blue;
+  color:#fff;
+  cursor: pointer;
+}
+
+br {
+    clear: left;
+}
+#sos {
+  color: red;
+}
+#over {
+  color: orange;
+}

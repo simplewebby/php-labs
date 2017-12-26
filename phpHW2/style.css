@@ -1,0 +1,48 @@
+
+body{
+  background: #edfcfa;
+  font-size: 14px;
+  font-family: sans-serif, Arial, Helvetica;
+  color: #385653;
+
+}
+main {
+text-align: center;
+
+  width: 70%;
+  background: #d4f7f3;
+  margin: 20px;
+  padding: 20px;
+  border: 5px solid #91bab6;
+}
+
+h1 , h2{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+fieldset {
+  border: 1px solid #91bab6;
+  margin-bottom: 30px;
+}
+.signup {
+  padding: 5px;
+  margin-bottom: : 5px;
+}
+#submit{
+  color: #273a38;
+  padding: 5px;
+  background-color: #edfcfa;
+  border: 1px solid #91bab6;
+  border-radius: 5px;
+  width: 100%;
+}
+#submit:hover{
+  color: #d3e8e5;
+  background-color: #1c2b29;
+
+}
+input {
+  padding: 3px;
+  margin: 5px;
+}

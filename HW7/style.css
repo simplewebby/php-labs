@@ -1,0 +1,69 @@
+body, html {
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+  background:#93c2c9;
+  color: #233e42;
+  width: 100%;
+}
+h1 {
+    margin-top: 0;
+    text-shadow: 5px 5px 2px #fff;
+
+}
+label {
+  font-size: 21px;
+    width: 13em;
+    float: left;
+    padding: 5px;
+    padding-right: 3em;
+    padding-bottom: .8em;
+    text-shadow: 5px 5px 2px #c8cfd1;
+}
+#data input {
+    color: #233e42 ;
+    padding: 5px;
+    float: left;
+    width: 29%;
+    margin-bottom: .5em;
+}
+#data span {
+    padding-left: .25em;
+}
+#buttons input {
+
+  padding: 8px 8px ;
+   background-color: #233e42;
+   color: #fff;
+    float: left;
+    margin-bottom: .5em;
+    width: 30%;
+    border: none;
+    box-shadow: 5px 5px 2px #c8cfd1;
+    font-size: 11px;
+
+  }
+
+#buttons input:hover {
+    background:#fff;
+    color:#233e42;
+    float: left;
+    margin-bottom: .5em;
+    width: 30%;
+    border: solid 4px #233e42;
+}
+
+br {
+    clear: left;
+}
+h1 span{
+  color: #fff;
+  text-shadow: 5px 5px 2px #233e42;
+}
+  .error {
+    color: #FF0000;
+  }
+
+.valid {
+  color: green;
+}

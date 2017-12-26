@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url('mountin.jpg') ;
+    opacity: 0.9;
+    /* Full height */
+    height: 1300px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+  }
+
+label {
+    display: block;
+    width: 8em;
+    text-align: right;
+    margin: 0 0 .5em;
+    padding: 0 1em;
+    float: left;
+    text-align: center;
+}
+input, select {
+    display: block;
+    float: left;
+    margin-bottom: .5em;
+    margin-top: 0;
+    text-align: center;
+    color: #3496ed;
+}
+#btn {
+  border-radius: 5px;
+  font-family: 'Oswald', sans-serif;
+  color: #3496ed;
+  font-size: 60%;
+  padding: 5px 5px;
+  border: solid  #3496ed 2px;
+  text-decoration: none;
+  background: #fff;
+}
+#btn:hover {
+  color: #fff ;
+  border: solid #fff 3px;
+  background: #3496ed;
+}
+
+
+
+br {
+    clear: left;
+}

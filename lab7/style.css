@@ -1,0 +1,77 @@
+body, html {
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url(val.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100%;
+}
+main {
+    width: 70%;
+    margin: 0 auto;
+    padding: 1em;
+    background: #e0d7d2;
+    color: #63351c ;
+    box-shadow: 10px 10px 5px #8e7c72;
+
+}
+h1 {
+    margin-top: 0;
+    text-shadow: 5px 5px 2px #fff;
+
+}
+label {
+  font-size: 21px;
+    width: 13em;
+    float: left;
+    padding: 5px;
+    padding-right: 3em;
+    padding-bottom: .8em;
+      text-shadow: 5px 5px 2px #b2aca9;
+}
+#data input {
+    color: #63351c ;
+    padding: 5px;
+    float: left;
+    width: 29%;
+    margin-bottom: .5em;
+}
+#data span {
+    padding-left: .25em;
+}
+#buttons input {
+
+  padding: 8px 8px ;
+   background-color: #63351c;
+   color: #fff;
+    float: left;
+    margin-bottom: .5em;
+    width: 30%;
+    border: none;
+    box-shadow: 5px 5px 2px #775746;
+    font-size: 11px;
+
+  }
+
+#buttons input:hover {
+    background:#fff;
+    color: #63351c;
+    float: left;
+    margin-bottom: .5em;
+    width: 30%;
+    border: solid 4px #63351c;
+}
+
+br {
+    clear: left;
+}
+h1 span{
+  color: #fff;
+  text-shadow: 5px 5px 2px #775746;
+}
+  .error {
+    color: #FF0000;
+  }
+
+.valid {
+  color: green;
+}
